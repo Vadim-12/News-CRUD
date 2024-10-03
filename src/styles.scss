@@ -1,0 +1,31 @@
+html,
+body,
+header,
+main,
+footer {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 22px;
+}
+h1 {
+	font-size: 45px;
+	text-align: center;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+textarea {
+	resize: vertical;
+}
+
+@media screen and (max-width: 700px) {
+	h1 {
+		font-size: 30px;
+	}
+	.container {
+		width: calc(100% - 50px);
+	}
+}
